@@ -35,9 +35,19 @@ Rather than focusing on short-term fluctuations, this project aims to identify s
 
 ## Dashboard Preview
 
+The following dashboard provides an interactive view of the main indicators analyzed in this project.
+It is composed of four main visual components (one of which includes interactive buttons on the side):
 
+- A line chart displaying the evolution of purchasing power over time, along with housing burden and overall cost-of-living burden.
+- A comparative table showing RIPTE (registered wages) against the basic food basket and different household basket levels.
+- A second line chart illustrating the evolution of key interest rates (BADLAR and personal loans).
+- A bar chart, ordered by descending year, representing the evolution of the exchange rate.
+
+Additionally, the dashboard includes smaller supporting elements such as KPI cards in the top-right corner (highlighting current BADLAR, personal loan rates, and exchange rate values), as well as a period filter to dynamically explore the data.
 
 ![Dashboard preview](images/dashboard_preview.png)
+
+## Key Insights
 
 ### Purchasing power
 
@@ -55,8 +65,6 @@ Rather than focusing on short-term fluctuations, this project aims to identify s
 
 ![Living cost burden 2021-26](images/living_cost_2021-26.png)
 
-## Key Insights
-
 ## Data Sources
 
 ## Data Preparation
@@ -67,7 +75,7 @@ Rather than focusing on short-term fluctuations, this project aims to identify s
 
 ## Terminology & Dashboard Use
 
-The main dashboard is presented in Spanish, as the primary audience of this analysis is local. Below is a reference guide for key terms used throughout the project:
+The main dashboard is presented in Spanish, as the primary audience of this analysis is local. This glossary is intended to facilitate interpretation for non-Spanish-speaking readers. Below is a reference guide for key terms used throughout the project:
 
 | English Term | Spanish Term | Description |
 |-------------|-------------|------------|
