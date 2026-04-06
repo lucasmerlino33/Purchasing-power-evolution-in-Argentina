@@ -49,23 +49,83 @@ Additionally, the dashboard includes smaller supporting elements such as KPI car
 
 ## Key Insights
 
-### Purchasing power
+### Sustained decline in purchasing power
+
+Purchasing power reached its last significant peak between mid-2017 and early 2018. Since then, real wages have shown a sustained downward trend relative to inflation.
 
 ![Purchasing power 2017-21](images/purchasing_power_2017-21.png)
 
+A particularly sharp drop occurred around late 2023, followed by a partial recovery in 2024–2025. However, current levels remain significantly below the 2017 peak, indicating a structural deterioration in real income.
+
 ![Purchasing power 2021-26](images/purchasing_power_2021-26.png)
 
-### Housing burden index
+---
+
+### Increasing housing burden since 2024
+
+Until early 2024, housing affordability fluctuated around relatively stable levels, suggesting that wages were, in many cases, still aligned with rental costs.
+
+However, since March 2024, the housing burden index has increased sharply and consistently, indicating that rental prices have grown faster than wages. This marks a clear deterioration in access to housing.
 
 ![Housing burden 2021-26](images/housing_burden_2021-26.png)
 
-### Living cost burden index
+---
+
+### Cost of living consistently outpacing wages
+
+Since 2018, the cost of living (proxied by inflation) has systematically exceeded wage growth.
 
 ![Living cost burden 2017-21](images/living_cost_2017-21.png)
 
+This is reflected in the living cost burden index remaining above baseline levels, confirming a persistent loss of purchasing power over time.
+
 ![Living cost burden 2021-26](images/living_cost_2021-26.png)
 
+---
+
+### High interest rates and reduced access to credit
+
+Interest rates on personal loans increased significantly in recent years, peaking around 2023 and partially stabilizing in 2024.
+
+Despite this stabilization, current levels remain elevated compared to the 2010–2018 period, suggesting tighter financial conditions and reduced access to credit for households.
+
+---
+
+### Long-term currency depreciation
+
+The exchange rate remained relatively stable until 2018, after which it experienced a sharp and sustained increase.
+
+This long-term depreciation reflects broader macroeconomic instability and contributes to inflationary pressures, further impacting real income.
+
+---
+
+### Limitations of income indicators (RIPTE)
+
+While RIPTE provides a useful reference for registered wages, it may overestimate average income levels, as it excludes informal workers and may be influenced by higher-income segments.
+
+As a result, real household conditions—especially for lower-income groups—may be more constrained than the data suggests.
+
+---
+
+### Gap between theoretical baskets and real living costs
+
+Although basic consumption baskets define poverty and indigence thresholds, they represent minimum subsistence levels rather than realistic living standards.
+
+Actual expenses such as clothing, healthcare, and housing often exceed these thresholds, highlighting a gap between statistical measures and lived economic conditions.
+
+Overall, the analysis suggests a growing disconnect between official economic indicators and the actual cost of living experienced by households.
+
 ## Data Sources
+
+The datasets were obtained from official government websites such as INDEC and BCRA (Central Bank):
+
+- [Salary index - INDEC](https://www.indec.gob.ar/indec/web/Nivel4-Tema-4-31-61)
+- [Inflation rates (IPC) - INDEC](https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31)
+- [Food basket - INDEC](https://www.indec.gob.ar/indec/web/Nivel3-Tema-4-43)
+- [RIPTE - Argentina.gob.ar](https://www.argentina.gob.ar/trabajo/seguridadsocial/ripte)
+- [Exchange rates - BCRA](https://www.bcra.gob.ar/principales-variables-datos/?serie=7927)
+- [Interest rates - BCRA](https://www.bcra.gob.ar/principales-variables-datos/?serie=7925&serie1=0&serie2=0&serie3=0&serie4=0)
+- [Housing (ICL) - BCRA](https://www.bcra.gob.ar/principales-variables-datos/?serie=7988)
 
 ## Data Preparation
 
