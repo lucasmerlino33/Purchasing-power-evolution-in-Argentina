@@ -31,14 +31,29 @@ Rather than focusing on short-term fluctuations, this project aims to identify s
 6.	[Data Preparation](#data-preparation)
 7.	[Challenges & Limitations](#limitations--assumptions)
 8.	[Conclusions](#conclusions)
+9.	[Terminology & Dashboard Use](#terminology--dashboard-use)
 
 ## Dashboard Preview
 
+
+
+![Dashboard preview](images/dashboard_preview.png)
+
 ### Purchasing power
+
+![Purchasing power 2017-21](images/purchasing_power_2017-21.png)
+
+![Purchasing power 2021-26](images/purchasing_power_2021-26.png)
 
 ### Housing burden index
 
+![Housing burden 2021-26](images/housing_burden_2021-26.png)
+
 ### Living cost burden index
+
+![Living cost burden 2017-21](images/living_cost_2017-21.png)
+
+![Living cost burden 2021-26](images/living_cost_2021-26.png)
 
 ## Key Insights
 
@@ -49,3 +64,36 @@ Rather than focusing on short-term fluctuations, this project aims to identify s
 ## Limitations & Assumptions
 
 ## Conclusions
+
+## Terminology & Dashboard Use
+
+The main dashboard is presented in Spanish, as the primary audience of this analysis is local. Below is a reference guide for key terms used throughout the project:
+
+| English Term | Spanish Term | Description |
+|-------------|-------------|------------|
+| Purchasing Power | Poder Adquisitivo (PA) | Real income adjusted by inflation |
+| Inflation | IPC (Índice de Precios al Consumidor) | Consumer price index |
+| Housing Cost | ICL (Índice de Contratos de Locación) | Rental price index |
+| Housing Burden | Esfuerzo de vivienda | Relative cost of housing vs wages |
+| Living Cost Burden | Esfuerzo económico | Relative cost of living vs wages |
+| Living Cost | Costo de vida | General price level (proxied by IPC) |
+| Salary Index | Índice de salarios | Wage index (INDEC) |
+| Wages (RIPTE) | RIPTE | Registered private sector wages (may overestimate average income) |
+| Basic Food Basket | Canasta Básica Alimentaria (CBA) | Minimum food consumption (indigence line) |
+| Total Basic Basket | Canasta Básica Total (CBT) | Poverty threshold |
+| Household Basket | Canasta básica hogar | Estimated cost for a representative household |
+| Interest Rates | Tasas de interés (BCRA) | Monetary and financial rates |
+| Exchange Rate | Tipo de cambio | ARS/USD reference rate |
+| Personal Loans | Préstamos personales | Consumer credit rates |
+| BADLAR | BADLAR | Interest rate for large deposits (banking system reference) |
+
+Basic instructions for extra information:
+
+Place the cursor over "?" bottom to read the equivalent adult rate used for the household basket
+
+![Instructions 1](images/instructions_1.png)
+
+Place the cursor over the dashboard to read the description for each household basket
+
+![Instructions 2](images/instructions_2.png)
+
