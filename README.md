@@ -169,6 +169,12 @@ Rebased Index = Original Index / Index at Base Period * 100
 
 This process ensured that all indicators could be directly compared in relative terms.
 
+![Rebasing salary index 1](images/Rebasing_salary_index_1.png)
+
+---
+
+![Rebasing salary index 2](images/Rebasing_salary_index_2.png)
+
 ---
 
 ### Additional Data Sources
