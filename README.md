@@ -129,6 +129,71 @@ The datasets were obtained from official government websites such as INDEC and B
 
 ## Data Preparation
 
+Data preparation combined automated processing using Python with manual adjustments in Excel, due to structural inconsistencies across official datasets.
+
+### RIPTE (Wages) – PDF Extraction & Normalization
+
+The RIPTE dataset was originally published in PDF format, requiring extraction before analysis.
+
+- Tables were extracted using Python (Camelot).
+- Due to inconsistencies in structure (misaligned columns, multi-row headers), additional manual normalization was performed in Excel.
+- This included removing unnecessary columns, restructuring headers, and aligning data into a tabular format.
+- Encoding issues (Latin-1) were resolved by converting files to UTF-8.
+
+📁 See script: [`/scripts/01_pdf_to_csv_ripte.py`](https://github.com/lucasmerlino33/Purchasing-power-evolution-in-Argentina/blob/main/scripts/01_pdf_to_csv_ripte.py)
+
+---
+
+### Housing Index (ICL) – Frequency Transformation
+
+The ICL dataset was originally provided at a daily frequency.
+
+- Data was transformed to a monthly frequency using Python.
+- The last available value of each month was selected as representative.
+- Date formats were standardized.
+- July 2020 was explicitly enforced as the base period (index = 100) to ensure consistency.
+
+📁 See script: [`/scripts/02_converting_icl_month.py`](https://github.com/lucasmerlino33/Purchasing-power-evolution-in-Argentina/blob/main/scripts/02_converting_icl_month.py)
+
+---
+
+### Index Rebasing (Normalization Across Datasets)
+
+To ensure comparability across variables, all indices were rebased to a common reference period.
+
+- Salary Index and CPI were aligned using December 2016 as base (100).
+- Housing Index (ICL), originally based on July 2020, required an additional rebasing step, in which new files were created (for salary index and inflation index with a new base on 2020) in order to made them comparable to each other.
+- The standard rebasing formula applied was:
+
+Rebased Index = Original Index / Index at Base Period * 100
+
+This process ensured that all indicators could be directly compared in relative terms.
+
+---
+
+### Additional Data Sources
+
+Other datasets (interest rates, exchange rates, basic consumption baskets, and adult equivalence rates) required minimal preprocessing.
+
+- Data was imported and standardized in Excel.
+- Formatting adjustments were applied where necessary (dates, numeric formats).
+- No major structural transformations were required due to relatively clean source formats.
+
+📁 See data directory: [`/data`](https://github.com/lucasmerlino33/Purchasing-power-evolution-in-Argentina/tree/main/data)
+
+---
+
+### Notes on Data Quality
+
+Working with official public datasets (INDEC, BCRA) presented several challenges:
+
+- Lack of standardization across time
+- Changes in base periods
+- Inconsistent file formats (PDF, Excel, CSV)
+- Structural differences between datasets
+
+As a result, part of the preparation process involved ensuring methodological consistency before analysis. All transformations were designed to prioritize interpretability and comparability over complexity.
+
 ## Limitations & Assumptions
 
 ## Conclusions
