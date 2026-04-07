@@ -196,6 +196,72 @@ As a result, part of the preparation process involved ensuring methodological co
 
 ## Limitations & Assumptions
 
+### Data availability and methodological changes
+
+One of the main limitations of this analysis is the lack of consistent historical data across all variables.
+
+- Several key indicators (e.g., Salary Index, ICL) are only available from recent years (2016 onwards, in the case of ICL from 2020 onwards).
+- Methodological changes introduced around 2016 limit comparability with earlier periods.
+- Although CPI (inflation) data exists for prior years, differences in formats and methodologies make long-term comparisons unreliable.
+
+For this reason, the analysis focuses on the period where data is more consistent and comparable.
+
+---
+
+### Lack of absolute price data
+
+The analysis relies heavily on index-based measures rather than absolute values.
+
+- Housing costs are represented through the ICL index, without access to actual rental price levels.
+- There is no unified dataset combining wages, rent, utilities, and consumption into a single household budget.
+
+As a result, the analysis captures relative trends rather than exact affordability in monetary terms.
+
+---
+
+### Income measurement limitations (RIPTE)
+
+RIPTE is the only available official source for absolute wage levels, but it has important limitations:
+
+- It includes only registered private sector workers.
+- It excludes informal employment, which represents a significant portion of the labor market.
+- It may be biased upward due to higher-income segments within the registered workforce.
+
+Therefore, actual income conditions, especially for lower-income and informal workers, may be more constrained than reflected in the data.
+
+---
+
+### Consumption basket limitations
+
+Basic consumption baskets (CBA and CBT) represent minimum subsistence thresholds rather than realistic living standards.
+
+- Certain categories such as clothing, healthcare, and housing may be underestimated.
+- Private expenses (e.g., private healthcare, education, insurance) are not fully captured.
+- Discretionary spending (leisure, entertainment, dining) is excluded.
+
+This creates a gap between statistical thresholds and real household expenses.
+
+---
+
+### Financial access and housing ownership
+
+This analysis focuses on rental dynamics and does not include housing ownership.
+
+- Access to homeownership has become increasingly limited due to:
+  - lack of mortgage credit
+  - high inflation and currency volatility
+  - limited long-term savings capacity
+
+As a result, the analysis reflects housing access primarily through rental affordability, not property acquisition.
+
+---
+
+### Assumptions
+
+- Indices are assumed to be representative of general trends, despite underlying heterogeneity across population groups.
+- Monthly data is treated as sufficiently granular to capture economic dynamics.
+- Financial indicators (interest rates, exchange rates) are used as contextual variables rather than direct causal drivers.
+
 ## Conclusions
 
 ## Terminology & Dashboard Use
