@@ -258,7 +258,7 @@ This analysis focuses on rental dynamics and does not include housing ownership.
   - high inflation and currency volatility
   - limited long-term savings capacity
 
-As a result, the analysis reflects housing access primarily through rental affordability, not property acquisition.
+As a result, the analysis reflects housing access primarily through rental affordability, not property acquisition. These limitations suggest that real living conditions may be more constrained than what formal indicators capture.
 
 ---
 
@@ -269,6 +269,20 @@ As a result, the analysis reflects housing access primarily through rental affor
 - Financial indicators (interest rates, exchange rates) are used as contextual variables rather than direct causal drivers.
 
 ## Conclusions
+
+This analysis highlights a persistent structural issue in Argentina’s economy: the sustained deterioration of purchasing power over time.
+
+Despite different economic policy approaches across recent years, the data consistently shows that wages have struggled to keep pace with inflation and rising living costs. This dynamic is reflected not only in declining real wages, but also in increasing economic and housing burdens.
+
+Beyond the numbers, these trends help explain broader social patterns. Economic pressure is not evenly distributed, but it is widely felt. The difficulty in maintaining stable income, accessing housing, and covering basic expenses contributes to a sense of uncertainty that affects long-term decision-making.
+
+This context may help explain phenomena such as increased financial stress, delayed independence among younger generations, and the growing intention to seek opportunities abroad. In this sense, the data reflects not only economic variables, but also underlying social dynamics.
+
+There is also a notable gap between official indicators and perceived living conditions. While statistical thresholds define minimum consumption levels, they do not fully capture the complexity of real expenses or quality of life.
+
+Ultimately, this project suggests that economic stability cannot be assessed solely through isolated indicators. A broader perspective: integrating income, cost of living, housing access, and financial conditions, is necessary to better understand the challenges faced by households.
+
+This work serves as a starting point for further analysis, with the aim of incorporating additional dimensions such as education, healthcare, and consumption patterns to build a more comprehensive view of living conditions in Argentina.
 
 ## Terminology & Dashboard Use
 
